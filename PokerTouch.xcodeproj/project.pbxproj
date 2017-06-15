@@ -22,6 +22,7 @@
 		97DC5B421EDB221F00B00A96 /* PokerRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B411EDB221F00B00A96 /* PokerRunner.swift */; };
 		97DC5B441EDB373B00B00A96 /* HandOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B431EDB373B00B00A96 /* HandOffViewController.swift */; };
 		97DC5B461EDC81BE00B00A96 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B451EDC81BE00B00A96 /* ScoreViewController.swift */; };
+		97DC5B481EE0FF5900B00A96 /* HandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B471EE0FF5900B00A96 /* HandsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,8 @@
 		97DC5B221ED8F93A00B00A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97DC5B251ED8F93A00B00A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97DC5B271ED8F93A00B00A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97DC5B2D1ED8F98C00B00A96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97DC5B2F1ED8FB6A00B00A96 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97DC5B2D1ED8F98C00B00A96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Downloads/Main.storyboard; sourceTree = "<group>"; };
+		97DC5B2F1ED8FB6A00B00A96 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Downloads/ViewController.swift; sourceTree = "<group>"; };
 		97DC5B311ED8FCA500B00A96 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		97DC5B331ED8FDD100B00A96 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		97DC5B351EDA011100B00A96 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../../Library/Autosave Information/Player.swift"; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		97DC5B411EDB221F00B00A96 /* PokerRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokerRunner.swift; path = "../../../Library/Autosave Information/PokerRunner.swift"; sourceTree = "<group>"; };
 		97DC5B431EDB373B00B00A96 /* HandOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandOffViewController.swift; sourceTree = "<group>"; };
 		97DC5B451EDC81BE00B00A96 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		97DC5B471EE0FF5900B00A96 /* HandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				97DC5B391EDAC00B00B00A96 /* SecondViewController.swift */,
 				97DC5B431EDB373B00B00A96 /* HandOffViewController.swift */,
 				97DC5B451EDC81BE00B00A96 /* ScoreViewController.swift */,
+				97DC5B471EE0FF5900B00A96 /* HandsViewController.swift */,
 				97DC5B411EDB221F00B00A96 /* PokerRunner.swift */,
 				97DC5B351EDA011100B00A96 /* Player.swift */,
 				97DC5B371EDA02B400B00A96 /* PokerMatch.swift */,
@@ -126,6 +129,7 @@
 				TargetAttributes = {
 					97DC5B171ED8F93800B00A96 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JJ3T82U92L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -175,6 +179,7 @@
 				97DC5B321ED8FCA500B00A96 /* Card.swift in Sources */,
 				97DC5B361EDA011100B00A96 /* Player.swift in Sources */,
 				97DC5B3A1EDAC00C00B00A96 /* SecondViewController.swift in Sources */,
+				97DC5B481EE0FF5900B00A96 /* HandsViewController.swift in Sources */,
 				97DC5B1C1ED8F93900B00A96 /* AppDelegate.swift in Sources */,
 				97DC5B381EDA02B400B00A96 /* PokerMatch.swift in Sources */,
 				97DC5B461EDC81BE00B00A96 /* ScoreViewController.swift in Sources */,
@@ -289,8 +294,10 @@
 		97DC5B2B1ED8F93A00B00A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = JJ3T82U92L;
 				INFOPLIST_FILE = PokerTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramisbahi.PokerTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,8 +308,10 @@
 		97DC5B2C1ED8F93A00B00A96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = JJ3T82U92L;
 				INFOPLIST_FILE = PokerTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramisbahi.PokerTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
