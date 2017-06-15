@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97D17BAE1EF2168600688E26 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D17BAD1EF2168600688E26 /* Player.swift */; };
+		97D17BB01EF2169C00688E26 /* PokerRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D17BAF1EF2169C00688E26 /* PokerRunner.swift */; };
+		97D17BB21EF216B300688E26 /* PokerMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D17BB11EF216B300688E26 /* PokerMatch.swift */; };
 		97DC5B1C1ED8F93900B00A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B1B1ED8F93900B00A96 /* AppDelegate.swift */; };
 		97DC5B231ED8F93A00B00A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DC5B221ED8F93A00B00A96 /* Assets.xcassets */; };
 		97DC5B261ED8F93A00B00A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DC5B241ED8F93A00B00A96 /* LaunchScreen.storyboard */; };
@@ -14,18 +17,18 @@
 		97DC5B301ED8FB6A00B00A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B2F1ED8FB6A00B00A96 /* ViewController.swift */; };
 		97DC5B321ED8FCA500B00A96 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B311ED8FCA500B00A96 /* Card.swift */; };
 		97DC5B341ED8FDD100B00A96 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B331ED8FDD100B00A96 /* Hand.swift */; };
-		97DC5B361EDA011100B00A96 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B351EDA011100B00A96 /* Player.swift */; };
-		97DC5B381EDA02B400B00A96 /* PokerMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B371EDA02B400B00A96 /* PokerMatch.swift */; };
 		97DC5B3A1EDAC00C00B00A96 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B391EDAC00B00B00A96 /* SecondViewController.swift */; };
 		97DC5B3E1EDAD06B00B00A96 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B3D1EDAD06B00B00A96 /* Deck.swift */; };
 		97DC5B401EDAD77F00B00A96 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B3F1EDAD77F00B00A96 /* GameViewController.swift */; };
-		97DC5B421EDB221F00B00A96 /* PokerRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B411EDB221F00B00A96 /* PokerRunner.swift */; };
 		97DC5B441EDB373B00B00A96 /* HandOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B431EDB373B00B00A96 /* HandOffViewController.swift */; };
 		97DC5B461EDC81BE00B00A96 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B451EDC81BE00B00A96 /* ScoreViewController.swift */; };
 		97DC5B481EE0FF5900B00A96 /* HandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC5B471EE0FF5900B00A96 /* HandsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97D17BAD1EF2168600688E26 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../../Library/Autosave Information/Player.swift"; sourceTree = "<group>"; };
+		97D17BAF1EF2169C00688E26 /* PokerRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokerRunner.swift; path = "../../../Library/Autosave Information/PokerRunner.swift"; sourceTree = "<group>"; };
+		97D17BB11EF216B300688E26 /* PokerMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokerMatch.swift; path = "../../../Library/Autosave Information/PokerMatch.swift"; sourceTree = "<group>"; };
 		97DC5B181ED8F93900B00A96 /* PokerTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DC5B1B1ED8F93900B00A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DC5B221ED8F93A00B00A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,12 +38,9 @@
 		97DC5B2F1ED8FB6A00B00A96 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Downloads/ViewController.swift; sourceTree = "<group>"; };
 		97DC5B311ED8FCA500B00A96 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		97DC5B331ED8FDD100B00A96 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
-		97DC5B351EDA011100B00A96 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		97DC5B371EDA02B400B00A96 /* PokerMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerMatch.swift; sourceTree = "<group>"; };
 		97DC5B391EDAC00B00B00A96 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		97DC5B3D1EDAD06B00B00A96 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		97DC5B3F1EDAD77F00B00A96 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		97DC5B411EDB221F00B00A96 /* PokerRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerRunner.swift; sourceTree = "<group>"; };
 		97DC5B431EDB373B00B00A96 /* HandOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandOffViewController.swift; sourceTree = "<group>"; };
 		97DC5B451EDC81BE00B00A96 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		97DC5B471EE0FF5900B00A96 /* HandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsViewController.swift; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 				97DC5B431EDB373B00B00A96 /* HandOffViewController.swift */,
 				97DC5B451EDC81BE00B00A96 /* ScoreViewController.swift */,
 				97DC5B471EE0FF5900B00A96 /* HandsViewController.swift */,
-				97DC5B411EDB221F00B00A96 /* PokerRunner.swift */,
-				97DC5B351EDA011100B00A96 /* Player.swift */,
-				97DC5B371EDA02B400B00A96 /* PokerMatch.swift */,
+				97D17BAF1EF2169C00688E26 /* PokerRunner.swift */,
+				97D17BAD1EF2168600688E26 /* Player.swift */,
+				97D17BB11EF216B300688E26 /* PokerMatch.swift */,
 				97DC5B331ED8FDD100B00A96 /* Hand.swift */,
 				97DC5B3D1EDAD06B00B00A96 /* Deck.swift */,
 				97DC5B311ED8FCA500B00A96 /* Card.swift */,
@@ -170,18 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D17BB21EF216B300688E26 /* PokerMatch.swift in Sources */,
 				97DC5B401EDAD77F00B00A96 /* GameViewController.swift in Sources */,
 				97DC5B3E1EDAD06B00B00A96 /* Deck.swift in Sources */,
-				97DC5B421EDB221F00B00A96 /* PokerRunner.swift in Sources */,
 				97DC5B441EDB373B00B00A96 /* HandOffViewController.swift in Sources */,
+				97D17BAE1EF2168600688E26 /* Player.swift in Sources */,
 				97DC5B341ED8FDD100B00A96 /* Hand.swift in Sources */,
 				97DC5B301ED8FB6A00B00A96 /* ViewController.swift in Sources */,
 				97DC5B321ED8FCA500B00A96 /* Card.swift in Sources */,
-				97DC5B361EDA011100B00A96 /* Player.swift in Sources */,
 				97DC5B3A1EDAC00C00B00A96 /* SecondViewController.swift in Sources */,
 				97DC5B481EE0FF5900B00A96 /* HandsViewController.swift in Sources */,
 				97DC5B1C1ED8F93900B00A96 /* AppDelegate.swift in Sources */,
-				97DC5B381EDA02B400B00A96 /* PokerMatch.swift in Sources */,
+				97D17BB01EF2169C00688E26 /* PokerRunner.swift in Sources */,
 				97DC5B461EDC81BE00B00A96 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
